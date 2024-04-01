@@ -1,0 +1,104 @@
+{
+  "id": "/subscriptions/8e3ea0b0-3604-495f-b098-df0fca59ef83/resourceGroups/CMPE/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesComputerVision-20240331184648",
+  "name": "Microsoft.CognitiveServicesComputerVision-20240331184648",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "143053568087925578",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "OCR-CMPE-277"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "CMPE"
+      },
+      "resourceGroupId": {
+        "type": "String",
+        "value": "/subscriptions/8e3ea0b0-3604-495f-b098-df0fca59ef83/resourceGroups/CMPE"
+      },
+      "sku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "virtualNetworkType": {
+        "type": "String",
+        "value": "None"
+      },
+      "vnet": {
+        "type": "Object",
+        "value": {}
+      },
+      "ipRules": {
+        "type": "Array",
+        "value": []
+      },
+      "identity": {
+        "type": "Object",
+        "value": {
+          "type": "None"
+        }
+      },
+      "privateEndpoints": {
+        "type": "Array",
+        "value": []
+      },
+      "privateDnsZone": {
+        "type": "String",
+        "value": "privatelink.cognitiveservices.azure.com"
+      },
+      "isCommitmentPlanForDisconnectedContainerEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "commitmentPlanForDisconnectedContainer": {
+        "type": "Object",
+        "value": {
+          "current": {},
+          "hostingModel": "DisconnectedContainer",
+          "planType": "Read",
+          "autoRenew": true
+        }
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-04-01T01:47:46.5646884Z",
+    "duration": "PT4.0813943S",
+    "correlationId": "07175241-acd9-45b2-9161-76b4d8083439",
+    "providers": [
+      {
+        "namespace": "Microsoft.CognitiveServices",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/8e3ea0b0-3604-495f-b098-df0fca59ef83/resourceGroups/CMPE/providers/Microsoft.CognitiveServices/accounts/OCR-CMPE-277"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.CognitiveServicesComputerVision"
+  }
+}

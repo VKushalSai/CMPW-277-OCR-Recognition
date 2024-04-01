@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/8e3ea0b0-3604-495f-b098-df0fca59ef83/resourceGroups/CMPE/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesComputerVision-20240331184648/operations/67882912356D8DF4",
+    "operationId": "67882912356D8DF4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-01T01:47:46.3853904Z",
+      "duration": "PT3.2693886S",
+      "trackingId": "50c00eb6-36fa-4607-96af-7a4a3a57f440",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8e3ea0b0-3604-495f-b098-df0fca59ef83/resourceGroups/CMPE/providers/Microsoft.CognitiveServices/accounts/OCR-CMPE-277",
+        "resourceType": "Microsoft.CognitiveServices/accounts",
+        "resourceName": "OCR-CMPE-277"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8e3ea0b0-3604-495f-b098-df0fca59ef83/resourceGroups/CMPE/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesComputerVision-20240331184648/operations/08584896708234818943",
+    "operationId": "08584896708234818943",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-01T01:47:46.5406226Z",
+      "duration": "PT3.4246208S",
+      "trackingId": "937aa813-e60c-4494-80ce-3c11a22242c8",
+      "statusCode": "OK"
+    }
+  }
+]
